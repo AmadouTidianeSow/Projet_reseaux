@@ -38,6 +38,7 @@ $documents = $stmt->fetchAll();
           <td>
             <a href="update_document.php?id=<?= $doc['id'] ?>" class="btn btn-sm btn-warning">Modifier</a>
             <a href="delete_document.php?id=<?= $doc['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Voulez-vous supprimer ce document ?');">Supprimer</a>
+            <a href="download_document.php?file=<?= urlencode($doc['chemin_fichier']) ?>" class="btn btn-sm btn-success">Télécharger</a>
           </td>
         </tr>
         <?php endforeach; ?>
