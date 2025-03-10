@@ -8,7 +8,7 @@ if (!isset($_SESSION['admin'])) {
 ?>
 <!-- Début de la Navbar -->
 <nav class="navbar navbar-expand-lg navbar-custom">
-  <a class="navbar-brand" href="/smrttech/index.php">Smarttech</a>
+  <a class="navbar-brand" href="/smarttech/index.php">Smarttech</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
     <span class="navbar-toggler-icon"></span>
